@@ -1,0 +1,19 @@
+{
+    "name": "esbuild-svg",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "description": "esbuild plugin to import .svg as a function returning markup with merged attrs",
+    "main": "src/svgFunctionPlugin.js",
+    "files": ["src"],
+    "keywords": ["esbuild", "plugin", "svg"],
+    "author": "Ben Ehmke",
+    "license": "MIT",
+    "devDependencies": {
+        "esbuild": "^0.23.0"
+    },
+    "scripts": {
+        "build:example": "node example/build.js"
+    }
+}
+
