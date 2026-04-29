@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/laserkats/esbuild-svg/master/docs/logo.svg" width="300" alt="ESBUILD-SVG">
+<img src="https://raw.githubusercontent.com/laserkats/esbuild-svg/master/logo.svg" width="300" alt="ESBUILD-SVG">
 
 
 Import an `.svg` file and get back a function that returns an SVGElement built with `createElementNS`, with attributes merged. Defaults from the original `<svg>` tag are preserved and can be overridden.
